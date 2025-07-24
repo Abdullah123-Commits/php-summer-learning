@@ -1,0 +1,10 @@
+                                                            # PHP SESSIONS
+In php , sessions are used to store some variable's values in an array of (SUPER_GLOBALS) to use them in multiple pages, this can be done by stating
+the instruction : 'sessions_start() ' 
+
+In the session array , we can also unset a value of session variable by using a function named ' unset()'.
+
+session_destroy() => deletes every entity from the session array / SUPERGLOBAL array.
+
+With 'sessions' the data is stored not on the client's device but on the server, whereas when using cookies so the data is stored on client's device.
+For most of the times and use cases 'SESSIONS' are to be more conveniently used and very rarely cookies are used.
