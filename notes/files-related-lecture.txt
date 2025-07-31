@@ -1,0 +1,23 @@
+FILE HANDLING AND RELATED STUFF IS EASY AND PROVIDED IN PHP.
+
+basename($path); # returns the filename with extension.
+
+dirname($path);  # return the name of the directory and subdir in which file is placed.
+
+filesize($filename);  # returns the size of the file in bytes.
+
+mkdir($dirname);   # creates a directory in current working directory, just as in terminal.
+
+rmdir($dirname);   # deletes an existing directory.
+
+copy ($source_file, $dest_file);   # copies the contents of file_src to file_dest.
+
+rename($oldname, $updated_name);   # renames the file as expected.
+
+unlink($file);   # deletes a file.
+
+file_get_contents($filename);   # prints the contents as string on screen.
+
+file_put_contents($filename);   # over writes content to file
+
+
